@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.eldadzipori.atidaprovals" >
+
+
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:name=".aprovedApp"
+        android:allowBackup="true"
+        android:icon="@mipmap/icon"
+        android:label="Atid Aprovals"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <meta-data
+            android:name="com.parse.APPLICATION_ID"
+            android:value="kFnvKwYhNIx7hFO2vWolPWqAEU7WYnIOzrN1kqXD" />
+        <meta-data
+            android:name="com.parse.CLIENT_KEY"
+            android:value="ma1Ufu0jL29HhiPGnsFgBvY9vl5SGeMv2loLShdU" />
+
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.Dark" >
+        </activity>
+        <activity
+            android:name=".LoginActivity"
+            android:theme="@style/AppTheme.Dark" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SendMessageActivity"
+            android:label="Send Approval Request"
+            android:theme="@style/AppTheme.Dark" >
+        </activity>
+        <activity
+            android:name=".SignupActivity"
+            android:theme="@style/AppTheme.Dark" >
+        </activity>
+        <activity android:name=".ViewMessageActivity" >
+        </activity>
+        <activity android:name=".AppvrovalActivity"  android:label="Approve Requests" android:theme="@style/AppTheme.Dark">
+        </activity>
+    </application>
+
+</manifest>

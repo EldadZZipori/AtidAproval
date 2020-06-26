@@ -1,0 +1,10 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".MainActivity">
+    <item android:id="@+id/action_Refresh" android:title="Refresh"/>
+    <item android:id="@+id/action_limitOne" android:title="Pick Last 1"/>
+    <item android:id="@+id/action_limitFive" android:title="Pick Last 5"/>
+    <item android:id="@+id/action_limitall" android:title="Pick Last all"/>
+    <item android:id="@+id/action_settings" android:title="Log Out"
+        android:orderInCategory="100" app:showAsAction="never" />
+</menu>
